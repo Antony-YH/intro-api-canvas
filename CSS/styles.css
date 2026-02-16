@@ -1,0 +1,17 @@
+/* =====================================================
+   Archivo: estilos.css
+   Descripción:
+   Este archivo define los estilos visuales del canvas
+   para que tenga un fondo gris claro y esté centrado
+   en la pantalla.
+   ===================================================== */
+
+
+/* Estilo del canvas */
+#lienzo {
+    background-color: #ffb3b3;   /* Rojo claro (relleno visual del canvas) */
+    border: 3px solid #ff0000;   /* Borde rojo */
+    border-radius: 20px;         /* Orillas redondeadas */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    display: block;
+}
